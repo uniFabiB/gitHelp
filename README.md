@@ -20,6 +20,7 @@
           #files
           *.o
           *.mod
+          #directories
           backup/
           input/
           output/

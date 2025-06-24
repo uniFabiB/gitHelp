@@ -31,11 +31,12 @@
           `ctrl + o` to write out file
           `ctrl + x` to exit nano
        
-       `git add .`
+       `git add -a`
           
 1. commit
     - `git commit -m "initial commit"`
     - `git commit -am "initial commit"`
+       which is `git add -a` and `git commit -m`
 1. push
     - `git push`
 

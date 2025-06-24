@@ -38,7 +38,7 @@
     - `git commit -am "initial commit"`
        which is `git add -A` and `git commit -m`
 1. push
-    - first
+    - first push
     
       `git push -u origin master`
     - later just

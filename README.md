@@ -36,7 +36,7 @@
 1. commit
     - `git commit -m "initial commit"`
     - `git commit -am "initial commit"`
-       which is `git add -a` and `git commit -m`
+       which is `git add -A` and `git commit -m`
 1. push
     - `git push`
 

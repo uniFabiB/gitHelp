@@ -38,7 +38,12 @@
     - `git commit -am "initial commit"`
        which is `git add -A` and `git commit -m`
 1. push
-    - `git push`
+    - first
+    
+      `git push -u origin master`
+    - later just
+
+      `git push`
 
 ## clone remote repository using ssh host aliases
 - essentially just do everything from `git clone` manually

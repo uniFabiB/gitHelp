@@ -29,6 +29,8 @@
           ```
           `ctrl + o` to write out file
           `ctrl + x` to exit nano
+       
+       `git add .`
           
 1. commit
     - `git commit -m "initial commit"`

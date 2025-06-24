@@ -8,8 +8,8 @@
     - `git remote add origin gitGithub_unifabib:unifabib/NAMEOFREPO.git`
     - might need to set safe directory
       - `git config --global --add safe.directory /path/to/local/dir`
-1. add files either
-    1. add manually
+1. add files either add
+    1. manually
 
        `git add file1.txt file2.script`
     1. all except

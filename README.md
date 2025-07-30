@@ -74,7 +74,7 @@
      - `git push -u origin main`
 - afterwards just
   - `git pull`
-  - `git commit -am "commit message"
+  - `git commit -am "commit message"`
   - `git push`
      
 

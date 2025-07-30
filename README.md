@@ -69,7 +69,7 @@
             - `git checkout master`
   1. do things
   1. commit
-     - `git commit -am "commit message"
+     - `git commit -am "commit message"`
   1. first push and set upstream for later
      - `git push -u origin main`
 - afterwards just

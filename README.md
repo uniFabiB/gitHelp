@@ -57,12 +57,11 @@
   1. get new changes from remote
       - either pull (=fetch+checkout)
         - `git pull origin master`
-          - or `git pull origin main` if pulling main branch    
-        - (potentially `git pull` in future if default branch set
-        if remote branch is not called master branch
+        - if remote branch is called main
+          - `git pull origin main`    
           - rename local branch to match remote branch
-          - if not done then always have to `git push -u origin master:main`
-          - `git branch -m main`
+            - `git branch -m main`
+            - if not done then always have to `git push -u origin master:main` later
       - or fetch + checkout
         1. update index of remote changes
             - `git fetch`
@@ -70,7 +69,7 @@
             - `git checkout master`
   1. first push and set upstream for later
      - `git push -u origin main`
-- later just
+- afterwards just
   - `git pull`
   - `git push`
      

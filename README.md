@@ -59,8 +59,8 @@
         - `git pull origin master`
         - if remote branch is called main
           - `git pull origin main`    
-          - rename local branch to match remote branch
-            - `git branch -m main`
+          - `git branch -m main`
+            - this renames the local branch main to match remote branch
             - if not done then always have to `git push -u origin master:main` later
       - or fetch + checkout
         1. update index of remote changes
